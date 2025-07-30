@@ -1,0 +1,7 @@
+openai
+python-dotenv
+sentence-transformers~=5.0.0
+numpy~=2.3.1
+PyPDF2
+nltk~=3.9.1
+scikit-learn~=1.7.0

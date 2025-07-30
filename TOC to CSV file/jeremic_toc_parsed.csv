@@ -1,0 +1,1159 @@
+Section Number,Title,Page Number
+﻿100,Theoretical and Computational Formulations,90
+101,Introduction,91
+101.1,Chapter Summary and Highlights,92
+101.2,On Modeling,92
+101.2.1,The Performance Challenge,93
+101.2.2,Analysis Governance,93
+101.3,Specialization to Computational Mechanics,95
+101.3.1,Mechanics,95
+101.3.2,Continuum Mechanics,95
+101.3.3,Statics and Dynamics,95
+101.3.4,Discretization Methods,96
+101.3.5,The Solution Morass,96
+101.3.6,Smooth Nonlinearities,96
+101.3.7,Rough Nonlinearities,97
+101.4,Tour of Computational Mechanics,97
+101.4.1,Equilibrium Path,97
+101.4.2,Special Equilibrium Points,97
+101.4.2.1,Critical Points,97
+101.4.2.2,Turning Points,97
+101.4.2.3,Failure Points,97
+102.12.1.1,Background,137
+102.12.1.8,20 Node u–p–U Brick,152
+102.12.1.9,27 Node u–p–U Brick,152
+102.12.3,u‑p Formulation,152
+102.12.3.1,Governing Equations of Porous Media,152
+102.12.3.2,Numerical Solutions of the Governing Equations,153
+102.12.3.3,8 Node u–p Brick,156
+102.13,Material and Geometric Non‑Linear Finite Element Formulation,156
+102.13.1,Introduction,156
+102.13.2,Equilibrium Equations,156
+102.13.3,Formulation of Non‑Linear Finite Element Equations,158
+102.13.4,Computational Domain in Incremental Analysis,159
+102.13.4.1,Total Lagrangian Format,163
+102.13.5,Finite Element Formulations,164
+102.13.5.1,Strong Form,164
+102.13.5.2,Weak Form,164
+102.13.5.3,Linearized Form,165
+102.13.5.4,Finite Element Form,166
+102.14,Cosserat Continuum Finite Element Formulation,166
+102.14,Cosserat Continuum Finite Element Formulation,166
+102.14.1,Introduction,166
+102.14.1.1,3D Finite Element Formulation for Cosserat Continua,166
+102.14.1.2,Cosserat Elastoplastic Algorithm,167
+102.14.2,Cosserat Elasticity,167
+102.14.2.1,Stress,167
+102.14.2.2,Couple Stress,167
+102.14.2.3,Generalized Stress,168
+102.14.2.4,Cosserat Strain,169
+102.14.2.5,Curvature,169
+102.14.2.6,Generalized Strain,169
+102.14.2.7,Constitutive Equations,169
+102.14.2.8,Relation to the Classical Elasticity Tangent,170
+102.14.2.9,Flatten the Tensor of Force Tangent and Curvature Tangent,170
+102.14.3,3D Finite Element Formulation,171
+102.14.3.1,Force Equilibrium,171
+102.14.4,Momentum Equilibrium,171
+102.14.4.1,Illustration in 2D,171
+102.14.4.2,Strain‑Displacement Relationship,172
+102.14.4.3,Isoparametric 8‑Node Brick,174
+103,Micromechanical Origins of Elasto‑Plasticity,176
+103.1,Chapter Summary and Highlights,177
+103.2,Friction,177
+103.2.1,Early Works,177
+103.3,Particle Contact Mechanics,177
+103.4,Dilatancy,178
+104,Small Deformation Elasto‑Plasticity,179
+104.1,Chapter Summary and Highlights,180
+104.2,Elasto–Plasticity,180
+104.2.1,Constitutive Relations for Infinitesimal Plasticity,180
+104.2.2,On Integration Algorithms,182
+104.2.3,Midpoint Rule Algorithm,183
+104.2.3.1,Accuracy Analysis,184
+104.2.3.2,Numerical Stability Analysis,191
+104.2.4,Crossing the Yield Surface,199
+104.2.5,Singularities in the Yield Surface,201
+104.2.5.1,Corner Problem,201
+104.2.5.2,Apex Problem,203
+104.2.5.3,Influence Regions in Meridian Plane,204
+104.3,A Forward Euler (Explicit) Algorithm,206
+104.3.1,Continuum Tangent Stiffness Tensor,206
+104.4,A Backward Euler (Implicit) Algorithm,207
+104.4.1,Single Vector Return Algorithm,207
+104.4.2,Backward Euler Algorithms: Starting Points,210
+104.4.2.1,Single Vector Return Algorithm Starting Point,211
+104.4.3,Consistent Tangent Stiffness Tensor,212
+104.4.3.1,Single Vector Return Algorithm,213
+104.4.4,Gradients to the Potential Function,215
+104.4.4.1,Analytical Gradients,216
+104.4.4.2,Finite Difference Gradients,218
+104.5,Line Search Technique for Constitutive Elastic‑Plastic Integration,220
+104.6,Elastic and Elastic‑Plastic Material Models for Solids,220
+104.6.1,Elasticity,220
+104.6.1.1,Elastic Model,222
+104.6.1.2,Non‑linear Elastic Model #1,223
+104.6.1.3,Non‑linear Elastic Model #2,223
+104.6.1.4,Lade’s Non‑linear Elastic Model,223
+104.6.1.5,Cross Anisotropic Linear Elastic Model,223
+104.6.2,Yield Functions,223
+104.6.3,Plastic Flow Directions,224
+104.6.4,Hardening‑Softening Evolution Laws,225
+104.6.5,Tresca Model,226
+104.6.6,von Mises Model,226
+104.6.6.1,Yield and Plastic Potential Functions: von Mises Model (form I),229
+104.6.6.2,Yield and Plastic Potential Functions: von Mises Model (form II),230
+104.6.6.3,Hardening and Softening Functions: von Mises Model,231
+104.6.7,Drucker‑Prager Model,232
+104.6.7.1,Yield and Plastic Potential Functions: Drucker‑Prager Model (form I),234
+104.6.7.2,Yield and Plastic Potential Functions: Drucker‑Prager Model (form II),235
+104.6.7.3,Hardening and Softening Functions: Drucker‑Prager Model,237
+104.6.7.4,Federico’s Description of a Drucker‑Prager Kinematic Hardening Model,239
+104.6.7.5,Han’s Description of Drucker‑Prager Model with Armstrong‑Frederick Kinematic Hardening,241
+104.6.8,Hyperbolic Drucker‑Prager Model,243
+104.6.8.1,Original Yield Function and Hyperbolic Function,243
+104.6.8.2,Hyperbolic Drucker‑Prager Model,244
+104.6.8.3,Modified Hyperbolic Drucker‑Prager,244
+104.6.8.4,The Non‑Associative Plastic Potential Function,246
+104.6.8.5,Han’s Description of Hyperbolic Drucker‑Prager Model with Armstrong‑Frederick Kinematic Hardening,247
+104.6.9,Rounded Mohr‑Coulomb Model,250
+104.6.10,Modified Cam‑Clay Model,251
+104.6.10.1,Critical State,252
+104.6.10.2,Elasticity,252
+104.6.10.3,Yield Function,253
+104.6.10.4,Plastic Flow,253
+104.6.10.5,Evolution Law,254
+104.6.10.6,Yield and Plastic Potential Functions: Cam‑Clay Model,254
+104.6.11,SaniSand 2004 (aka Dafalias‑Manzari) Model,255
+104.6.11.1,Critical State,255
+104.6.11.2,Elasticity,256
+104.6.11.3,Yield Function,256
+104.6.11.4,Plastic Flow,258
+104.6.11.5,Evolution Laws,258
+104.6.11.6,Analytical Derivatives for the Implicit Algorithm,259
+104.6.12,SaniSand 2008 (aka SANISAND) Model,262
+104.6.13,SANICLAY Model,262
+104.6.14,G/Gmax Modeling,262
+104.6.15,Pisanò Elastic‑Plastic Model with Vanishing Elastic Region (for G/Gmax Modeling),262
+104.6.15.1,Frictional and Viscous Dissipative Mechanisms,265
+104.6.15.2,Bounding Surface Frictional Model with Vanishing Elastic Domain,266
+104.6.15.3,The Role of Linear Viscous Damping,273
+104.6.15.4,Model Performance and Calibration,275
+104.6.15.5,Parametric Analysis,280
+104.6.15.6,Concluding Remarks,284
+104.6.15.7,Derivations of Various Equations,285
+104.6.16,Cosserat Elastoplasticity,287
+104.6.16.1,Elasticity Law,287
+104.6.16.2,Yield Criterion,287
+104.6.16.3,Plastic Flow,288
+104.6.16.4,Hardening Rule,288
+104.6.16.5,Forward Euler Algorithm,289
+104.6.16.6,Explicit Formulation,289
+104.6.16.7,Backward Euler (Implicit) Algorithm,290
+104.6.17,Cosserat von Mises Elastoplastic Model,290
+104.6.17.1,Cosserat Plastic Model,290
+104.6.17.2,Analysis of Cosserat Elastoplastic Solids,292
+104.6.18,Accelerated Constitutive Models,292
+104.6.18.1,Elasto‑plasticity,294
+104.6.18.2,Elastic‑Plastic Constitutive Models,294
+104.6.18.3,von Mises Model,295
+104.6.18.4,Nonlinear Elastic Model in 1D based on Armstrong‑Frederick Equation,299
+104.6.18.5,Drucker‑Prager Model,299
+104.6.18.6,Modified Cam‑Clay Model,303
+104.6.18.7,Comparison of Computational Time of Accelerated Constitutive Models with New Template 3Dep,305
+104.7.1,Experimental Data,306
+104.7.2.1,Penalty Method,311
+104.7.2.2,Hard Contact/Joint/Interface,315
+104.7.2.3,Soft Contact/Joint/Interface,316
+104.7.3,Shear Contact/Joint/Interface,319
+104.7.3.1,Interface Shear Zone,319
+104.7.3.2,Elastic Perfectly Plastic Shear (EPPS) Model,321
+104.7.3.3,Nonlinear Hardening Shear (NLHS) Model,321
+104.7.3.4,Nonlinear Hardening Softening Shear (NLHSS) Model,324
+104.7.3.5,EPPS Model,327
+104.7.3.6,NLHS Model,328
+104.7.3.7,NLHSS Model,328
+104.8,Inelastic Behavior and Models for Rock,329
+104.8.1,Overview of Intact Rock Behavior,329
+104.8.1.1,Pressure Sensitivity,331
+104.8.1.2,Dilative and Compactive Response,337
+104.8.1.3,Anisotropy,339
+104.8.1.4,High‑Rate Elastic‑Plastic Loading,344
+104.8.1.5,Coupling with Pore Fluid Pressure and Temperature,348
+104.8.2,Uncertainty and Variability of Rock Behavior,353
+104.8.3,Effects of Shock Loading on Intact Rock Behavior,354
+104.8.3.1,Shock Waves of First and Second Kind,355
+104.8.3.2,Hugoniots,357
+104.8.4,Material Modeling of Rock,358
+104.8.4.1,Lawrence Livermore National Laboratory Models,358
+104.8.4.2,Hoek and Brown Model,358
+104.8.4.3,Other Models,359
+104.8.5,Model Calibration/Testing Devices,361
+104.8.6,Influence of Pore Fluid Pressure and Temperature on Rock Response,363
+104.9.1,Uniaxial Material Model for Steel,363
+104.10,Calibration of Elastic‑Plastic Material Models,368
+104.11,Energy Dissipation Calculations for Solids,368
+104.11.1,Introduction,368
+104.11.2,Theoretical and Computational Formulations,371
+104.11.2.1,Thermo‑Mechanical Theory,371
+104.11.2.2,Plastic Free Energy,372
+104.11.2.3,Plastic Dissipation,375
+104.11.2.4,Energy Computation in Finite Elements,377
+104.11.3,Numerical Studies,379
+104.11.3.1,Elastic Material,379
+104.11.3.2,von Mises Plasticity,381
+104.11.3.3,Drucker–Prager Plasticity,387
+104.11.4,Conclusions,391
+104.12,Energy Dissipation Calculations for Structures,393
+104.12.1,Introduction,393
+104.12.2,Theoretical and Computational Formulations,395
+104.12.2.1,Thermomechanical Framework,395
+104.12.2.2,Plastic Free Energy,397
+104.12.2.3,Energy Dissipation in Beam‑Column Element,398
+104.12.3,Numerical Studies,406
+104.12.3.1,Steel Column,406
+104.12.3.2,Plain Concrete Column,409
+104.12.3.3,Reinforced Concrete Column,411
+104.12.3.4,Steel Frame,414
+104.12.4,Conclusions,415
+104.13,Localization of Deformation,417
+105,Probabilistic Elasto‑Plasticity and Stochastic Elastic‑Plastic Finite Element Method,418
+105.1,Chapter Summary and Highlights,419
+105.2.1,Probabilistic Elasto‑Plasticity: Introduction,419
+105.2.2,Probabilistic Elasto‑Plasticity: General Formulation,423
+105.2.3,Probabilistic Elasto‑Plasticity: Elastic–Plastic Probabilistic 1‑D Constitutive Incremental Equation,429
+105.2.4,Probabilistic Elasto‑Plasticity: Initial and Boundary Conditions for the Probabilistic Elastic–Plastic PDE,432
+105.2.5,Probabilistic Elasto‑Plasticity: Fokker–Planck–Kolmogorov Equation for Probabilistic Elasticity and Elasto–Plasticity in 1‑D,433
+105.2.6,Probabilistic Elasto‑Plasticity: Example Problem Statements,434
+105.2.7,Probabilistic Elasto‑Plasticity: Determination of Coefficients for Fokker–Planck–Kolmogorov Equation,435
+105.2.8,Probabilistic Elasto‑Plasticity: Results and Verifications of Example Problems,437
+105.2.9,Problem I,438
+105.2.10,Problem II,440
+105.2.11,Problem III,442
+105.3.1,Fokker–Planck–Kolmogorov Approach to Probabilistic Elasto–Plasticity,451
+105.3.2,Elastic–Perfectly Plastic Material,455
+105.3.2.1,Probability Density Function,456
+105.3.2.2,Case of Increasing Strain Loops,458
+105.3.2.3,Case of Constant Strain Loops,459
+105.3.2.4,Monotonic Loading,459
+105.3.2.5,Hardening Material,462
+105.3.2.6,Isotropic Hardening,464
+105.3.2.7,Kinematic Hardening,466
+105.4,Hermite Polynomial Chaos Karhunen–Loève Expansion,469
+105.5,Galerkin Stochastic Elastoplastic Finite Element Formulations,471
+105.5.1,Stochastic Elastoplastic Finite Element Method,471
+105.6,Sobol’ Indices Computation Using Polynomial Chaos Expansion,476
+106,Large Deformation Elasto‑Plasticity,482
+106.1,Chapter Summary and Highlights,483
+106.2,Continuum Mechanics Preliminaries: Kinematics,483
+106.2.1,Deformation,483
+106.2.2,Deformation Gradient,484
+106.2.4,Rate of Deformation Tensor,489
+106.3,Constitutive Relations: Hyperelasticity,492
+106.3.1,Introduction,492
+106.3.2,Isotropic Hyperelasticity,493
+106.3.3,Volumetric–Isochoric Decomposition of Deformation,496
+106.3.4,Simo–Serrin’s Formulation,496
+106.3.5,Stress Measures,498
+106.3.6,Tangent Stiffness Operator,499
+106.3.7,Isotropic Hyperelastic Models,500
+106.3.7.1,Ogden Model,501
+106.3.7.2,Neo–Hookean Model,502
+106.3.7.3,Mooney–Rivlin Model,502
+106.3.7.4,Logarithmic Model,503
+106.3.7.5,Simo–Pister Model,504
+106.4,Finite Deformation Hyperelasto–Plasticity,504
+106.4.1,Introduction,504
+106.4.2,Kinematics,505
+106.4.3,Constitutive Relations,507
+106.4.4,Implicit Integration Algorithm,508
+106.4.5,Algorithmic Tangent Stiffness Tensor,518
+107,Solution of Static Equilibrium Equations,522
+107.1,Chapter Summary and Highlights,523
+107.2,The Residual Force Equations,523
+107.3,Constraining the Residual Force Equations,523
+107.4,Load Control,526
+107.5,Displacement Control,526
+107.6.1,Traversing Equilibrium Path in Positive Sense,529
+107.6.1.1,Positive External Work,529
+107.6.1.2,Angle Criterion,530
+107.6.2,Predictor Step,531
+107.6.3,Automatic Increments,532
+107.6.4,Convergence Criteria,532
+107.6.5,The Algorithm Progress,536
+108,Solution of Dynamic Equations of Motion,537
+108.1,Chapter Summary and Highlights,538
+108.2,The Principle of Virtual Displacements in Dynamics,538
+108.3,Direct Integration Methods for the Equations of Dynamic Equilibrium,538
+108.3.1,Newmark Integrator,538
+108.3.2,HHT Integrator,539
+108.4,Synthetic Viscous Damping for Solids and Structures,540
+108.4.1,Synthetic Viscous Damping Approaches,540
+108.4.2,Caughey Damping 2nd Order (aka Rayleigh Damping),541
+108.4.3,Caughey Damping 3rd Order,543
+108.4.4,Caughey Damping 4th Order,544
+109.1,Chapter Summary and Highlights,547
+109.2,Seismic Energy Propagation and Dissipation,547
+109.2.1,Seismic Energy Input into SSI System,547
+109.2.2,Seismic Energy Dissipation in SSI System,547
+109.2.2.1,Energy Dissipation by Plasticity,548
+109.2.2.2,Energy Dissipation by Viscous Coupling,552
+109.2.2.3,Numerical Energy Dissipation and Production,552
+109.2.2.4,Energy Dissipation by Nonlinearities in Soil/Rock,552
+109.2.2.5,Energy Dissipation by Nonlinearities in Soil/Rock–Foundation Interface Zone,553
+109.2.2.6,Energy Dissipation by Nonlinearities in Seismic Isolators,553
+109.2.2.8,Numerical Energy Dissipation and Production,553
+109.2.3,Seismic Motions: Empirical Models,553
+109.2.4,1D/1C Wave Propagation Modeling,554
+109.2.5,Seismic Motions: 3D/3C Analytic Wave Propagation Modeling,557
+109.2.6,Seismic Motions: Large‑Scale Geophysical Models,561
+109.2.6.1,Regional Seismic Motion Modeling using Serpentine Wave Propagation (SW4),561
+109.2.7,Site Response,562
+109.2.8,Seismic Motion Incoherence,562
+109.2.8.1,Lack of Correlation Modeling and Simulation,563
+109.2.9,Lack of Volume Change Data for Soil,564
+109.3,Earthquake Soil‑Structure Interaction,566
+109.4,Earthquake Soil‑Structure Interaction Modeling Details,568
+109.4.1,Seismic Motions Input into Finite Element Model,568
+109.4.1.1,The Domain Reduction Method (DRM) Development,569
+110,Parallel Computing in Computational Mechanics,579
+110.1,Chapter Summary and Highlights,580
+110.2,Introduction,580
+110.2.1.1,Distributed Memory Parallel (DMP) Computations,580
+110.2.1.2,Shared Memory Parallel (SMP) Computations,580
+110.2.1.3,General Purpose Graphical Processing Units (GPGPUs),580
+110.2.1.4,Fast Programmable Gate Arrays (FPGAs),580
+110.2.2,Parallel Computing for Elastic-Plastic Solids and Structures,580
+110.2.3,Problem Requirements,580
+110.2.3.1,Finite Element Computations in Geomechanics,580
+110.2.3.2,Adaptive Computation,582
+110.2.3.3,Multi-phase Computation,583
+110.2.4,Parallel Computing Hardware,583
+110.2.4.1,DMPs and SMPs,583
+110.2.5,Parallel Computing Software,584
+110.2.5.1,Amdahl’s Law,584
+110.2.5.2,Static and Dynamic Graph Partitioning,584
+110.2.5.3,Real-parallel and Embarrassingly Parallel,584
+110.2.5.4,Parallel Computing for Elastic-Plastic FEM,585
+110.2.5.5,Plastic Domain Decomposition,585
+110.2.5.6,Template Meta-programs,586
+110.3,Plastic Domain Decomposition Algorithm,586
+110.3.1,Introduction,586
+110.3.2,Inelastic Parallel Finite Element,588
+110.3.2.1,Adaptive Computation,590
+110.3.2.2,Multiphase Computation,591
+110.3.2.3,Multiconstraint Graph Partitioning,591
+110.3.2.4,Adaptive PDD Algorithm,593
+110.3.3,Adaptive Multilevel Graph Partitioning Algorithm,593
+110.3.3.1,Unified Repartitioning Algorithm,598
+110.3.3.2,Study of ITR in ParMETIS,599
+110.4,Performance Studies on PDD Algorithm,600
+110.4.1,Introduction,600
+110.4.2,Parallel Computers,600
+110.4.3,Soil-Foundation Interaction Model,601
+110.4.4,Numerical Study for ITR,603
+110.4.5,Parallel Performance Analysis,613
+110.4.6,Algorithm Fine-Tuning,630
+110.4.7,Fine-Tuning on Load Imbalance Tolerance,631
+110.4.8,Globally Adaptive PDD Algorithm,635
+110.4.8.1,Implementations,637
+110.4.8.2,Performance Results,638
+110.4.9,Scalability Study on Prototype Model,643
+110.4.9.1,3Bent SFSI Finite Element Models,643
+110.4.9.2,Scalability Runs,645
+110.4.10,Conclusions,646
+110.5,Application of Project-Based Iterative Methods in SFSI Problems,653
+110.5.1,Introduction,653
+110.5.2,Projection-Based Iterative Methods,653
+110.5.2.1,Conjugate Gradient Algorithm,654
+110.5.2.2,GMRES,655
+110.5.2.3,BiCGStab and QMR,657
+110.5.3,Preconditioning Techniques,657
+110.5.4,Preconditioners,659
+110.5.4.1,Jacobi Preconditioner,659
+110.5.4.2,Incomplete Cholesky Preconditioner,659
+110.5.4.3,Robust Incomplete Factorization,660
+110.5.5,Numerical Experiments,663
+110.5.6,Conclusion and Future Work,671
+110.6,Performance Study on Parallel Direct/Iterative Solving in SFSI,672
+110.6.1,Parallel Sparse Direct Equation Solvers,675
+110.6.1.1,General Techniques – SPOOLES,675
+110.6.1.2,Frontal and Multifrontal Methods – MUMPS,675
+110.6.1.3,Supernodal Algorithm – SuperLU,678
+110.6.2,Performance Study on SFSI Systems,680
+110.6.2.1,Equation System,680
+110.6.2.2,Performance Results,682
+110.6.3,Conclusion,682
+111,Solid‑Structure–Fluid Interaction,684
+111.1,Chapter Summary and Highlights,685
+111.2,Introduction,685
+111.3,Theoretical Formulation,687
+111.3.1,Solid‑Fluid Interaction,687
+111.3.2,Finite Volume Discretization,688
+111.3.3,Volume of Fluid Method,691
+111.3.4,Pressure‑Velocity Coupling: PISO Algorithm,692
+111.3.5,Explicit Transient Algorithm,695
+111.4,Implementation Details,697
+111.4.1,Installation of OpenFOAM,697
+111.4.2,Integrated Preprocessor - gmFoam,697
+111.4.3,Interface Domain - SSFI,699
+111.4.4,Geometric Mapping,700
+111.4.5,SFI Interpolation,701
+111.4.6,Mass Conservation,704
+201,The Real ESSI Simulator System,707
+201.1,Chapter Summary and Highlights,708
+201.2,Introduction to the Real‑ESSI Simulator System,708
+201.2.1,Real‑ESSI Program,708
+201.2.2,Real‑ESSI Pre‑Processing Tools,709
+201.2.3,Real‑ESSI Post‑Processing Tools,709
+201.2.4,Real‑ESSI Computer,709
+201.2.5,Real‑ESSI Notes,709
+201.2.6,Real‑ESSI Name,710
+202,Object‑Oriented Software Platform Design,711
+202.1,Chapter Summary and Highlights,712
+202.2,Object‑Oriented Design Basics,712
+202.3,Object‑Oriented Design of the Plastic Domain Decomposition (PDD),712
+202.3.1,Introduction,712
+202.3.2,Object‑Oriented Parallel Finite Element Algorithm,712
+202.3.2.1,Modeling Classes,715
+202.3.2.2,Finite Element Model Class,715
+202.3.2.3,Analysis,717
+202.3.2.4,Object‑Oriented Domain Decomposition,726
+202.3.2.5,Parallel Object‑Oriented Finite Element Design,728
+202.3.3,Dual‑Phase Adaptive Load Balancing,733
+202.3.3.1,Elemental Level Load Balancing,733
+202.3.3.2,Equation Solving Load Balancing,733
+202.3.4,Object‑Oriented Design of PDD,735
+202.3.4.1,MPI Channel,739
+202.3.4.2,MPI Channel Address,739
+202.3.4.3,FEM Object Broker,740
+202.3.4.4,Domain,741
+202.3.4.5,Partitioned Domain,741
+202.3.4.6,Node & DOF Group,741
+202.3.4.7,Domain Partitioner,742
+202.3.4.8,Shadow/Actor Subdomain,743
+202.3.4.9,Send/Recv Self,745
+202.3.5,Graph Partitioning,745
+202.3.5.1,Construction of Element Graph,746
+202.3.5.2,Interface to ParMETIS/METIS,746
+202.3.6,Data Redistribution,749
+203,Library‑Centric Software Platform Design,752
+203.1,Chapter Summary and Highlights,753
+203.1.1,Finite Elements,753
+203.1.1.1,Single Phase Solid Elements,753
+203.1.1.3,Structural Elements,753
+203.1.1.4,Special Elements,753
+203.1.2,Constitutive Integration and Material Models,754
+203.1.2.1,Explicit Integration,754
+203.1.2.2,Implicit Integration,754
+203.1.2.3,Material Models,754
+203.1.3,Modified OpenSees Services Library,754
+204,Application Programming Interface,755
+204.1,Chapter Summary and Highlights,756
+204.2,Introduction,756
+204.3,Application Programming Interface for Domain Specific Language (DSL),756
+204.3.1,Modeling,756
+204.3.1.1,Modeling: Material Models,757
+204.3.1.2,Modeling: Nodes,769
+204.3.1.3,Modeling: Finite Elements,770
+204.3.1.4,Modeling: Damping,784
+204.3.1.6,Modeling: Static Loads,787
+204.3.1.7,Modeling: Dynamic Loads,791
+204.3.1.8,Modeling: Prescribed Displacements,793
+204.3.1.9,Modeling: Solid‑Fluid Interface,793
+204.3.1.10,Modeling: Outputs to mySQL database,794
+204.3.2,Simulation,794
+204.3.2.1,Simulation: Solvers,794
+204.3.2.2,Simulation: Static Solution Advancement,795
+204.3.2.3,Simulation: Dynamic Solution Advancement,795
+204.3.2.4,Simulation: Solution Algorithms,796
+204.3.2.5,Simulation: Convergence Criteria,796
+204.3.2.6,Simulating Response,797
+204.4,Application Programming Interface for Constitutive Simulations,798
+204.5,Application Programming Interface for Finite Elements,798
+204.6,Adding a New Command into Real‑ESSI Simulator,799
+204.6.1,Introduction,799
+204.6.2,Parser,799
+204.6.3,feiparser.yy,800
+204.6.4,feiparser.l,801
+204.6.5,createparallel.sh,801
+204.6.6,createsequential.sh and createparallel.sh,802
+204.6.7,Application Programming Interface (API),802
+204.7,Adding New Finite Element into Real‑ESSI Simulator,803
+204.7.1,Introduction,803
+204.7.2,Getting Started: Creating New Element Directory,803
+204.7.3,Element Header File,805
+204.7.4,Element Source File,808
+204.7.5,Element Class Tag Description,817
+204.7.6,Integrating New Finite Element into Parser,820
+204.7.6.1,feiparser.yy,821
+204.7.6.2,feiparser.l,821
+204.7.6.4,FeiDslCaller,823
+204.7.6.5,New DSL Header File,823
+204.7.7,Compiling Real‑ESSI,824
+204.7.8,Verification of Implementation,824
+205.1,Chapter Summary and Highlights,826
+205.2,Introduction,826
+205.3.1,Running Real‑ESSI,827
+205.3.2,Finishing Real‑ESSI Program Run,829
+205.3.4,Modeling,834
+205.3.5,Simulation,1100
+205.3.5.3,Simulation: Static Solution Advancement,1105
+205.3.5.4,Simulation: Dynamic Solution Advancement with Constant Time Step,1106
+205.3.5.5,Simulation: Dynamic Solution Advancement with Variable Time Step,1107
+205.3.5.6,Simulation: Generalized Eigenvalue Analysis,1108
+205.3.5.7,Simulation: Displacement Control,1109
+205.3.5.11,Simulation: Absolute Convergence Criteria,1113
+205.3.5.12,Simulation: Average Convergence Criteria,1114
+205.3.5.13,Simulation: Relative Convergence Criteria,1115
+205.3.5.14,Simulation: Solution Algorithms,1116
+205.3.5.15,Simulation: Constitutive Integration Algorithm,1117
+205.3.5.16,Simulation: Status Check,1119
+205.3.5.17,Simulation: Save State,1120
+205.3.5.18,Simulation: Restart Simulation,1121
+205.3.5.19,Simulation: Return Value for simulate Command,1122
+205.3.5.20,Simulation: New Elastic Loading Case,1132
+205.3.5.21,Simulation: Combine Elastic Load Cases,1133
+205.3.5.25,Simulation: 3D 3C Wave Field Inversion,1140
+205.3.6,Output Options,1142
+205.3.6.1,Output Options: Enable/Disable Output,1143
+205.3.6.2,Output Options: Enable/Disable Element Output,1144
+205.3.6.3,Output Options: Enable/Disable Displacement Output,1145
+205.3.6.4,Output Options: Enable/Disable Acceleration Output,1146
+205.3.6.5,Output Options: Enable/Disable Asynchronous Output,1147
+205.3.6.6,Output Options: Output Every n Steps,1148
+205.3.6.7,Output Options: Output Support Reactions,1149
+205.4,Checking the Model,1150
+205.5,Constitutive Testing,1151
+205.7,List of Reserved Keywords,1163
+205.8,Integrated Development Environment (IDE) for DSL,1176
+205.9,Mesh Generation using GiD,1177
+205.10,Model Development and Mesh Generation using gmesh,1178
+205.11,Model Input File Editing using Sublime,1179
+206,Output Formats,1180
+206.1,Chapter Summary and Highlights,1181
+206.2,Introduction,1181
+206.3,Output Filename and Format,1181
+206.3.1,Sequential,1181
+206.3.2,Parallel,1182
+206.4,Output Units,1183
+206.5,Data Organization,1183
+206.5.1,The Root group,1183
+206.5.2,The Model group,1187
+206.5.3,The Nodes group,1187
+206.5.3.1,Number of DOFs,1189
+206.5.3.2,Partition,1189
+206.5.3.3,Constrained Nodes,1190
+206.5.3.4,Constrained DOFs,1190
+206.5.3.5,Support Reactions,1190
+206.5.3.6,Coordinates,1191
+206.5.3.7,Generalized Displacements,1192
+206.5.4,The Elements group,1193
+206.5.4.1,Number of Nodes,1196
+206.5.4.2,Number of Element Outputs,1196
+206.5.4.3,Number of Gauss Points,1197
+206.5.4.4,Class Tags,1197
+206.5.4.5,Partition,1197
+206.5.4.6,Material Tags,1198
+206.5.4.7,Connectivity,1199
+206.5.4.8,Gauss Point Coordinates,1200
+206.5.4.9,Gauss Output,1200
+206.5.4.10,Element Outputs,1202
+206.5.5,The Physical Groups group,1203
+206.5.5.1,The Physical Element Groups,1203
+206.5.5.2,The Physical Node Groups,1204
+206.5.6,The Eigen Mode Analysis group,1204
+206.5.6.1,Number of Eigen Modes,1204
+206.5.6.2,Eigen Frequencies,1205
+206.5.6.3,Eigen Periods,1205
+206.5.6.4,Eigen Values,1205
+206.5.6.5,Modes,1206
+206.6,Node‑Specific Output Format,1207
+206.6.1,3 DOF,1207
+206.6.2,4 DOF,1207
+206.6.3,6 DOF,1208
+206.6.4,7 DOF,1208
+206.7,Element‑Gauss Output Format,1209
+206.8,Element‑Specific Output Format,1212
+206.8.1,Truss,1213
+206.8.2,Brick Elements,1213
+206.8.3,Shear Beam,1213
+206.8.4,Elastic Beam,1214
+206.8.5,4 Node Shell ANDES,1214
+206.8.6,BeamColumnDispFiber3d,1214
+206.8.7,ForceBased Contact/Interface Elements,1215
+206.8.8,StressBased Contact/Interface Elements,1215
+206.9,Energy Output Format,1217
+206.9.1,Input Energy,1217
+206.9.2,Energy Density Quantity at Gauss Point,1217
+206.9.3,Average Energy Density Quantity for Element,1218
+206.9.4,Energy Quantity for Element,1219
+207,Real-ESSI PreProcessing and Model Development Methods,1221
+207.1,Introduction,1222
+207.2,Model Development Using gmsh,1222
+207.2.1,Introduction to gmESSI,1222
+207.2.1.1,Getting Started,1222
+207.2.1.2,Running gmESSI,1224
+207.2.2,Gmsh Physical Groups and Geometrical Entities,1229
+207.2.2.1,Geometrical Entities,1229
+207.2.2.2,Physical Groups,1229
+207.2.3,gmESSI Command Description,1235
+207.2.3.1,gmESSI Syntax,1235
+207.2.3.2,gmESSI Command’s Physical Group,1238
+207.2.4,gmESSI Output,1239
+207.2.4.1,Directory Example 2 ESSI Simulation,1239
+207.2.4.2,Translation Log Terminal,1240
+207.2.4.3,Element File (element.fei),1243
+207.2.4.4,Node File (node.fei),1243
+207.2.4.5,Load File (load.fei),1243
+207.2.4.6,Analysis File (main.fei),1244
+207.2.4.7,Mesh File (XYZ.msh),1245
+207.2.4.8,Updated ESSI Tags Terminal,1245
+207.2.5,gmESSI Commands,1246
+207.2.5.1,Singular Commands,1247
+207.2.5.2,Add Node Commands,1248
+207.2.5.3,Nodal Commands: Operates on All Nodes of the Defined Physical Group,1249
+207.2.5.4,General Elemental Commands: Operates on All Elements of the Defined Physical Group,1253
+207.2.5.5,Elemental Commands: Operates on All Elements of the Defined Physical Group,1254
+207.2.5.6,Elemental Compound Commands: Operates on All Surface Elements of the Defined Physical Group [Surface Loads],1262
+207.2.5.7,Special Commands,1264
+207.2.5.8,Connect Command,1265
+207.2.5.9,Write Command,1270
+207.2.5.10,Write DRM HDF5 Command,1271
+207.2.6,Steps for Using gmESSI Tool,1273
+207.2.6.1,Building geometry (.geo) file in Gmsh,1273
+207.2.6.2,Generate mesh (.msh) file in Gmsh,1274
+207.2.6.3,Writing all gmESSI Commands for the Model,1275
+207.2.6.4,Executing gmESSI on Example1.gmessi Input File,1277
+207.2.6.5,Running Real-ESSI and Visualization in ParaView,1279
+207.2.7,Illustrative Examples,1280
+207.2.7.1,Modeling of Cantilever Beam With Surface Load [Example 2],1281
+207.2.7.2,Modeling of Embedded Shells and Beam in Solids [Example 5],1282
+207.2.8,Realistic Models Developed Using gmESSI,1284
+207.3,Introduction to SASSI-ESSI Translator,1284
+208,Real-ESSI PostProcessing Methods,1287
+208.1,Introduction,1288
+208.2,Model Results Post-Processing,1289
+208.3,Time Histories Plotting,1290
+208.4,PostProcessing and Visualization using ParaView,1291
+208.4.1,Visualization in ParaView: Features,1292
+208.4.1.1,PVESSI Reader Visualization Options,1292
+208.4.1.2,Sequential Visualization,1295
+208.4.1.3,Remote Visualization,1297
+208.4.1.4,Parallel Visualization,1297
+208.4.1.5,General Field Visualization,1299
+208.4.1.6,Relative Displacement Visualization,1306
+208.4.1.7,Visualizing Element’s Partition,1308
+208.4.1.8,Gauss Mesh Visualization Options,1309
+208.4.1.9,Gauss To Node Interpolation Mode Visualization,1312
+208.4.1.10,u-p-U Visualization,1314
+208.4.1.11,Eigen Mode Visualization,1316
+208.4.1.12,Visualizing Physical Node and Element Groups,1317
+208.4.1.13,Using Threshold to Visualize Certain Elements,1321
+209,Software Platform Build Process,1324
+209.1,Chapter Summary and Highlights,1325
+209.2,Introduction to the Real-ESSI Simulator Program,1325
+209.3,Real-ESSI Simulator System Install,1325
+209.4,Build Procedures for the Real-ESSI Program and Modules,1325
+209.4.1,System Libraries Update/Upgrade,1325
+209.4.2,Install Build Dependencies,1326
+209.4.3,Download Real-ESSI Source,1327
+209.4.4,Download and Compile Real-ESSI Dependencies,1327
+209.4.6,Install Sublime Text and Real-ESSI Packages,1328
+209.4.7,Install HDFView,1329
+209.4.8,Compile ParaView and PVESSI Reader for Post-Processing,1329
+209.5,Build Real-ESSI Debian Package,1331
+209.5.1,Build the Real-ESSI Program and Modules,1331
+209.5.2,Build the Debian Package,1331
+209.5.2.1,Package Name,1331
+209.5.2.2,Create Directory,1332
+209.5.2.3,Create Internal Structure,1332
+209.5.2.4,Copy Files,1332
+209.5.2.5,Create the control File,1332
+209.5.2.6,Create the Post-Installation and Post-Remove Files,1333
+209.5.2.7,Build the Package,1335
+209.6.1,Installation of Customized OpenFOAM,1335
+209.6.2,Check the Customized OpenFOAM Installation,1337
+209.6.3,Compile Real-ESSI with Link to OpenFOAM,1338
+209.7,Code Verification After the Build Process,1339
+209.7.1,Run all verification test cases,1339
+209.7.2,Test Sequential Real-ESSI,1339
+209.7.3,Test Parallel Real-ESSI,1340
+209.7.4,Version Stability Test,1340
+209.7.5,Memory Management Test,1340
+209.8,Compiling Real-ESSI Utilities,1343
+209.8.1,Installation of gmsh and gmESSI,1344
+209.8.2,Installation of ParaView and PVESSI Reader,1345
+209.8.2.1,Building ParaView and PVESSI Reader Plugin from Source on Linux System,1345
+209.8.2.2,Building ParaView and PVESSI Reader Plugin from Source on Windows System,1346
+209.8.2.3,Building ParaView and PVESSI Reader Plugin from Source on AWS,1348
+209.9,Sublime Text Editor,1351
+209.10,Model Conversion/Translation using FeConv,1351
+209.11,Build Procedures on Amazon Web Service,1351
+209.11.1,Sign Into AWS,1352
+209.11.2,Copy an Existing Image,1352
+209.11.3,Create a New Image,1352
+209.11.4,Build AWS ESSI Image from Scratch,1355
+209.11.5,Update an Existing Image,1359
+209.11.6,Upload an Existing Real-ESSI Simulator Image to AWS Market Place,1360
+210.1,Chapter Summary and Highlights,1362
+210.2,Introduction,1362
+210.3,Real-ESSI Program Debian Package Download and Install,1363
+210.3.1,System Libraries Update/Upgrade,1363
+210.3.2,Real-ESSI Debian Package Download,1363
+210.3.3,Real-ESSI Debian Package Install,1363
+210.3.4,Load pvESSI Plugin in ParaView,1363
+210.3.5,Install Other Useful Programs,1364
+210.3.5.1,HDFView,1364
+210.3.5.2,Sublime Text,1364
+210.4,Real-ESSI Program Executables Download and Install,1365
+210.4.1,Sequential Version of Real-ESSI Program,1365
+210.4.2,Parallel Version of Real-ESSI Program,1365
+210.4.3,Real-ESSI Executable Downloads,1366
+210.6,Real-ESSI Simulator System Install,1371
+210.6.1,Student Manual for Real-ESSI Simulator System Install,1372
+211,Cloud Computing,1373
+211.1,Chapter Summary and Highlights,1374
+211.2,Real-ESSI Cloud Computing Overview,1374
+211.2.1,Real-ESSI Cloud Service Content,1374
+211.3,Launch Real-ESSI Instance on AWS,1376
+211.3.1,Launch Real-ESSI Instance from AWS Private Images,1376
+211.3.2,Launch Real-ESSI Instance from AWS Market Place,1388
+211.4,Connect to Real-ESSI Instance on AWS,1388
+211.4.1,Install X2GO Client,1388
+211.4.1.1,Installing X2GO Client on Ubuntu Linux,1388
+211.4.1.2,Installing X2GO Client on Apple Mac,1389
+211.4.1.3,Installing X2GO Client on Windows,1389
+211.4.1.4,Installing X2GO Client on other Operating Systems,1389
+211.4.2,Configure the Client-Side of X2GO,1390
+211.4.3,Connect to the Launched Instance,1391
+211.5,Terminate Real-ESSI Instance on AWS,1391
+211.6,Adding Permission for Private Real-ESSI Image to User AWS Accounts,1392
+211.7,Real-ESSI Instructional Videos Cloud Computing,1393
+211.7.1,Installing X2GO for Windows,1393
+211.7.2,Installing X2GO for Macintosh,1393
+211.7.3,Installing X2GO for Linux,1393
+211.7.4,Launch AWS Marketplace,1393
+211.7.5,Access Running Instance on AWS,1393
+211.7.6,Start Real-ESSI Program on AWS,1393
+211.7.7,Run Real-ESSI Example Model on AWS,1393
+211.7.8,Visualize Real-ESSI Example Model on AWS,1393
+211.8,Cost of AWS EC2,1394
+211.8.1,Cost of Running Real-ESSI on AWS,1396
+211.8.1.1,Small Size Real-ESSI Example,1396
+211.8.1.2,Medium Size Real-ESSI Example,1402
+211.8.1.3,Large Example,1405
+211.8.3,AWS for Education,1430
+211.8.4,AWS for Government,1431
+211.8.4.1,AWS GovCloud,1431
+211.8.4.2,AWS Secret Region,1431
+212,Hardware Platform Design and Development,1432
+212.1,Chapter Summary and Highlights,1433
+212.2,Introduction,1433
+212.3,The NRC ESSI Computer,1433
+212.3.1,Version: December 2010,1433
+212.3.2,Version: April 2012,1433
+300,Verification and Validation,1435
+301,Verification and Validation Introduction,1436
+301.1,Chapter Summary and Highlights,1437
+301.2,Important Literature,1437
+301.3,Verification and Validation,1437
+301.3.1,Definitions,1437
+301.3.2,Trusting Simulation Tools,1438
+301.3.3,Importance of V & V,1438
+301.3.4,Maturity of Computational Simulations,1438
+301.3.5,Role of Verification and Validation,1439
+301.3.5.1,Alternative V & V Definitions,1440
+301.3.5.2,Certification and Accreditation,1440
+301.3.5.3,Independence of Computational Confidence Assessment,1440
+301.3.6,Simulation-Informed Decision Making,1441
+301.3.6.1,Purpose of Modeling and Simulation,1441
+301.3.7,Decision Making by Industry and by Regulatory Authorities,1442
+301.3.8,Simulation Governance,1446
+301.3.9,Detailed Look at Verification and Validation,1448
+301.3.9.1,On Verification,1448
+301.3.9.2,On Validation,1449
+301.4,Prediction,1452
+301.4.1,Relation Between Validation and Prediction,1452
+301.5,Application Domain,1453
+301.5.1,Importance of Models and Numerical Simulations,1453
+301.5.2,Prediction under Uncertainty,1454
+301.6,Intended use of Model,1455
+301.6.1,System Being Modeled,1455
+301.6.2,Simulation Governance,1455
+302,Source Code Verification,1456
+302.1,Chapter Summary and Highlights,1457
+302.1.1,Numerical Algorithm Verification,1457
+302.1.2,Software Quality Assurance,1457
+303,Code Stability Verification,1458
+303.1,Chapter Summary and Highlights,1459
+303.2,Introduction to Code Stability,1459
+303.3,Motivation,1459
+303.4,The Framework of the Automatic Test,1459
+303.5,Installation and Tutorial,1460
+303.5.1,Installation,1460
+303.5.2,Tutorial,1460
+303.5.2.1,Run all Verification Test Cases,1460
+303.5.2.2,Run a Single Type of Verification Test Cases,1461
+303.6,The Underlying Implementation of the Automatic Test,1461
+303.6.1,Generate the Original Results,1461
+303.6.2,Run essi and Make Comparison,1462
+303.6.2.1,The Terminal Output/Log Comparison,1462
+303.6.2.2,Reduce the Comparison Items and Comparison Time,1463
+303.7,Report Sample,1463
+303.7.1,Passed Test Case,1463
+303.7.2,Failed Test Case,1463
+303.7.3,Version Information,1464
+303.7.4,Statistics,1464
+303.8,Future Contribution,1464
+304,Validation Experiments,1465
+304.1,Chapter Summary and Highlights,1466
+304.2,Design of Experiments,1466
+305,Verification and Validation for Constitutive Problems,1467
+305.1,Chapter Summary and Highlights,1468
+305.2,Verification of Constitutive Integration,1468
+305.2.1,Error Assessment,1468
+305.2.2,Constitutive Level Convergence,1473
+305.3,Validation of Constitutive Model Predictions,1477
+305.3.1,Dafalias Manzari Material Model,1477
+306,Verification and Validation for Static and Dynamic Finite Element Level Solution Advancement Algorithms,1482
+306.1,Chapter Summary and Highlights,1483
+306.2,Verification for Static Solution Advancement,1483
+306.3,Verification for Dynamic Solution Advancement,1483
+306.3.2,Verification Example Description,1488
+306.3.3.1,Verification Results for Hilber Hughes Taylor (HHT) Solution Advancement Algorithm,1493
+307.1,Chapter Summary and Highlights,1500
+307.2.1,Beam Theory,1500
+307.2.2,Verification of 8 Node Brick Cantilever Beam (Static),1501
+307.2.3,Verification of 27 Node Brick Cantilever Beam (Static),1502
+307.2.4,Verification of 8 Node Brick Cantilever Beams,1505
+307.2.5,Verification of 8 Node Brick Cantilever Beam for Different Poisson’s Ratio,1507
+307.2.6,Test of Irregular Shaped 8 Node Brick Cantilever Beams,1512
+307.2.7,Verification of 8 Node Brick Stress in Cantilever Beams,1520
+307.2.8,Verification of 8 Node Brick Square Plate with Four Edges Clamped,1523
+307.2.9,Verification of 8 Node Brick Square Plate with Four Edges Simply Supported,1528
+307.2.10,Verification of 8 Node Brick Circular Plate with All Edges Clamped,1533
+307.2.11,Verification of 8 Node Brick Circular Plate with All Edges Simply Supported,1538
+307.2.12,Verification of 8 Node Brick Finite Element for Boussinesq Problem,1543
+307.2.12.1,Introduction,1543
+307.2.12.2,Description of the Verification Model,1543
+307.2.12.3,Results,1544
+307.2.12.4,Error Analysis,1545
+307.2.13,Verification of 8 Node Brick Finite Element for Collapsed Brick Shapes,1547
+307.2.13.1,Test Procedure,1547
+307.2.13.2,Test Result,1548
+307.2.14,Verification of 27 Node Brick Cantilever Beam (Static),1551
+307.2.15,Verification of 27 Node Brick Cantilever Beam for Different Poisson’s Ratio,1554
+307.2.16,Test of Irregular Shaped 27 Node Brick Cantilever Beams,1561
+307.2.17,Verification of 27 Node Brick Stress in Cantilever Beams,1569
+307.2.18,Verification of 27 Node Brick Square Plate with Four Edges Clamped,1572
+307.2.19,Verification of 27 Node Brick Square Plate with Four Edges Simply Supported,1577
+307.2.20,Verification of 27 Node Brick Circular Plate with All Edges Clamped,1583
+307.2.21,Verification of 27 Node Brick Circular Plate with All Edges Simply Supported,1588
+307.2.22,Verification of 27 Node Brick Finite Element for Boussinesq Problem,1593
+307.2.22.1,Introduction,1593
+307.2.22.2,Description of the Verification Model,1593
+307.2.22.3,Results,1594
+307.2.22.4,Error Analysis,1595
+308,Verification and Validation for Static and Dynamic Behavior of Structural Elements,1597
+308.1,Chapter Summary and Highlights,1598
+308.3,Bernoulli Beam Elements with 12 DOFs and 9 DOFs,1598
+308.3.1,FEM Model,1598
+308.3.2,Static Analysis,1598
+308.3.3,Dynamic Analysis,1599
+308.4,Timoshenko Beam,1602
+308.5,Verification of Shell (Felippa‑ANDES) Finite Element Modeling and Simulation,1606
+308.5.1,Static Tests,1606
+308.5.1.1,Bending Component Verification,1606
+308.5.1.2,Membrane Component Verification,1611
+308.5.2,Dynamic Tests,1615
+308.5.2.1,Bending Component,1615
+308.5.2.2,Membrane Component,1616
+308.5.2.3,Geometric Transformations,1617
+308.6,Verification of 4 Node ANDES Elements,1618
+308.6.1,Verification of 4 Node ANDES Cantilever Beams,1618
+308.6.2,Verification of 4 Node ANDES Cantilever Beam for Different Poisson’s Ratio,1622
+308.6.3,Test of Irregular Shaped 4 Node ANDES Cantilever Beams,1634
+308.6.4,Verification of 4 Node ANDES Square Plate with Four Edges Clamped,1645
+308.6.5,Verification of 4 Node ANDES Square Plate with Four Edges Simply Supported,1651
+308.6.6,Verification of 4 Node ANDES Circular Plate with All Edges Clamped,1657
+308.6.7,Verification of 4 Node ANDES Circular Plate with All Edges Simply Supported,1662
+309.1,Chapter Summary and Highlights,1668
+309.2,Verification of Static Penalty Contact/Interface/Joint Element Modeling and Simulation,1668
+309.2.1,Static Normal Contact/Interface/Joint Verification,1668
+309.2.1.1,Case 1: Monotonic Loading with initial gap δ_in = 0.1 m,1669
+309.2.1.2,Case 2: Monotonic Loading with no initial gap δ_in = 0 m,1669
+309.2.1.3,Case 3: Cyclic Loading with initial gap δ_in = 0.1 m,1669
+309.2.1.4,Case 4: Cyclic Loading with no initial gap δ_in = 0 m,1669
+309.2.2,Static Frictional Tangential Contact/Interface/Joint Verification,1675
+309.2.2.1,Case 1: Verification of the yield surface for different loading angles with fixed normal confinement,1676
+309.3,Verification of Static and Dynamic Contact/Interface/Joint Element Modeling and Simulation,1679
+309.3.1,Truss Examples,1680
+309.3.2,Single Brick Element Examples,1682
+309.3.3,Double Brick Element Examples,1682
+309.4,Verification of Static and Dynamic Coupled (Saturated) Contact/Interface/Joint Element Modeling and Simulation,1688
+309.4.1,Dry u-p-U Contact/Interface/Joint,1688
+309.4.2,u-p-U Contact/Interface/Joint,1690
+310.1,Chapter Summary and Highlights,1696
+310.2,Introduction,1696
+310.3,Drilling of a well,1696
+310.3.1,The Problem,1696
+310.3.2,Analytical Solution,1697
+310.3.3,Discussion of the Results,1698
+310.4,The Case of a Spherical Cavity,1702
+310.4.1,The Problem,1702
+310.4.2,Analytical Solution,1703
+310.4.3,Discussion of the Results,1704
+310.5,Line Injection of a fluid in a Reservoir,1705
+310.5.1,The Problem,1705
+310.5.2,Analytical Solution,1706
+310.5.3,Discussion of the Results,1708
+310.6,Shock Wave Propagation in Saturated Porous Medium,1713
+310.7,Vertical Consolidation of a soil layer by Coussy (2004),1714
+310.7.1,Brief Review of Analytical Solution for Consolidation by Coussy (2004),1714
+310.7.2,Numerical Analysis,1717
+310.7.3,Discussion of Numerical Results – Conclusions,1719
+310.8,One dimensional wave propagation in elastic porous media subjected to step displacement boundary condition,1721
+310.8.1,Brief Review of Analytical Solution by Gajo and Mongiovi (1995),1721
+310.8.2,Numerical Analysis,1731
+310.8.3,Discussion of Numerical Results – Conclusions,1761
+310.9,One dimensional wave propagation in elastic porous media subjected to step loading at the surface,1761
+310.9.1,Brief Review of Analytical Solution by de Boer et al. (1993),1761
+310.9.2,Numerical Analysis,1762
+310.9.3,Discussion of Numerical Results – Conclusions,1764
+310.10,One dimensional wave propagation in elastic porous media subjected to step velocity boundary condition,1766
+310.10.1,Brief Review of Analytical Solution by Hiremath et al. (1988),1766
+310.10.2,Numerical Analysis,1768
+310.10.3,Discussion of Numerical Results – Conclusions,1770
+311,Verification and Validation for Seismic Wave Propagation Problems,1785
+311.1,Chapter Summary and Highlights,1786
+311.2,Wavelet Seismic Signals,1786
+311.2.1,Ricker Wavelet,1786
+311.2.2,Ormsby Wavelet,1787
+311.3,Finite Element Mesh Size Effects on Seismic Wave Propagation Modeling and Simulation,1789
+311.3.1,Analysis Cases,1789
+311.3.2,Comparison of Case 1 and 2,1789
+311.3.3,Comparison of Case 3 and 4,1791
+311.3.5,Comparison of Case 7 and 8,1791
+311.4,Damping of the Outgoing Waves,1796
+311.4.1,Comparison of Rayleigh Damping and Caughey 4th Order Damping,1796
+311.4.2,Parametric Study on Effect of Rayleigh Damping on Reflected Waves,1800
+311.5,Mesh Size Effects for Linear (8 Node Brick) and Quadratic (27 Node Brick) Finite Elements on Wave Propagation,1810
+311.6.1.1,Ricker Wavelets,1822
+311.6.2,Vertical (1C) Seismic Waves in a Free Field,1827
+311.6.2.1,Morgan Hill and Kocaeli Earthquakes,1827
+311.6.3,Earthquake–Soil–Structure Interaction Verification for Simulated Northridge Seismic Motions,1831
+311.6.4,Curious Case of 1C versus 3C Modeling,1831
+311.6.5,Earthquake–Soil–Structure Interaction for Surface and Embedded Structures,1840
+311.6.5.1,Uniform half-space,1840
+311.6.5.2,Layered half-space,1840
+311.6.5.3,Layered over rigid lower boundary,1840
+311.7,Case History: Simple Structure on Nonlinear Soil,1841
+311.7.1,Simplified Models for Verification,1841
+311.7.1.1,Model Description,1841
+311.7.1.2,Static Pushover Test on Elastic-Plastic Soil Column,1843
+311.7.1.3,Dynamic Test on Elastic Soil Column,1843
+311.7.1.4,Dynamic Test on Elastic-Plastic Soil Column,1845
+311.7.1.5,2D Model,1849
+311.7.2,Full nonlinear 3D Model,1861
+311.7.2.1,Description of Model,1863
+311.7.2.2,Results,1864
+311.8,Lotung Large Scale Seismic Test (LLSST) Earthquake 07,1866
+311.8.1,Introduction,1866
+311.8.2,Input motion and input method,1866
+312,Verification and Validation for Static and Dynamic Behavior of Soil-Structure Interaction,1870
+312.1,Chapter Summary and Highlights,1871
+312.2,Solid-Beam Model – Comparison of Real-ESSI eigenfrequencies with ANSYS and Sofistik,1872
+312.3,Solid-Beam Model – Comparison of model responses using elastic beams with 12 dofs and 9 dofs,1873
+312.3.1,FEM Model,1873
+312.3.2,Static Analysis,1873
+312.3.3,Dynamic Analysis – Applying Force,1873
+312.3.4,Dynamic Analysis – Applying Displacement,1873
+312.3.5,Comparison of eigen frequencies between models using 9 dof beam and 12 dof beam,1877
+312.3.6,Eigen modes of model using 12 dof beam,1877
+312.3.7,Eigen modes of model using 9 dof beam,1877
+312.4,Validation Using UNR Soil Box Test Setup,1877
+313,Verification and Validation for Dynamic Solid-Fluid Interaction,1883
+313.1,Chapter Summary and Highlights,1884
+313.2,V&V Examples,1884
+313.2.1,Box sloshing,1884
+313.2.2,Dam Break,1886
+313.3,Verification & Validation,1886
+313.3.1,Free Surface Flow validation,1886
+313.3.2,Mass conservation verification,1888
+313.3.3,SFI Verification & Validation,1888
+314,Quality Management System,1891
+314.1,Chapter Summary and Highlights,1892
+314.2,Reasoning Behind this Activity,1892
+314.3.1,Real-ESSI Simulator Developer Organization,1893
+314.3.1.1,Internal Issues,1893
+314.3.1.2,External and Internal Issues for the Real-ESSI Simulator,1894
+314.3.1.3,Needs and expectations of Interested Parties,1894
+314.3.2,Scope of the Real-ESSI Simulator Quality Management System,1895
+314.4.1,ASME NQA-1 for the Real-ESSI Simulator System,1896
+315,Comparison with Other Programs,1897
+315.1,Chapter Summary and Highlights,1898
+315.1.1,Reasoning Behind this Activity,1898
+401.1,Delivery,1901
+401.2,Objectives,1901
+401.3,Additional Information,1902
+402.1,Delivery,1916
+402.2,Objectives,1916
+402.3,Additional Information,1917
+403.1,Short Course Delivery,1931
+403.2,Objectives,1931
+404,Online Education and Training,1935
+404.1,Real-ESSI Simulator Online Education and Training,1936
+404.1.1,Modeling and Simulations for ESSI,1937
+404.1.1.1,Introduction to Modeling and Simulation,1937
+404.1.2,Real-ESSI Simulator Modeling and Simulation System,1938
+404.1.3,Finite Element Method,1939
+404.1.3.1,Background,1939
+404.1.3.3,Dynamic FEM,1939
+404.1.4,Deterministic Elasto-Plasticity,1940
+404.1.4.1,Introduction to Modeling and Simulation,1940
+404.1.4.2,Theory Background,1940
+404.1.4.3,Elastic-Plastic Material Model Choices,1940
+404.1.4.4,Calibrating Elastic-Plastic Material Models,1940
+404.1.5,Seismic Energy Dissipation,1942
+404.1.5.1,Theory Background,1942
+404.1.5.2,Illustrative Examples,1942
+404.1.6,Probabilistic Elasto-Plasticity and Stochastic Elastic-Plastic Finite Element Method,1943
+404.1.6.1,Theory Background,1943
+404.1.6.2,Choice and Calibration of Probabilistic Material Models and Probabilistic Seismic Loads,1943
+404.1.6.3,Simple Probabilistic Examples,1943
+404.1.6.4,Probabilistic Wave Propagation Examples,1943
+404.1.7,Seismic Motions,1945
+404.1.8,Earthquake Soil Structure Interaction,1946
+404.1.9,Verification and Validation,1947
+404.1.10,High Performance Computing,1948
+404.1.10.1,HPC Introduction,1948
+404.1.10.2,HPC and Real-ESSI,1948
+404.1.10.3,Real-ESSI Parallel Computing Examples,1948
+404.1.11,Real-ESSI Simulator Examples,1949
+405.1,Chapter Summary and Highlights,1951
+405.2,Elastic Solid Constitutive Examples,1952
+405.2.1,Linear Elastic Constitutive Examples,1952
+405.2.1.4 Uniaxial Strain,Cyclic Loading,1955
+405.2.2.1 Triaxial Uniform Pressure,Monotonic Loading,1956
+405.3.2.1 Pure Shear,Monotonic Loading,1959
+405.3.2.2 Pure Shear,Cyclic Loading,1960
+405.3.2.3 Uniaxial Strain,Monotonic Loading,1961
+405.3.2.4 Uniaxial Strain,Cyclic Loading,1962
+405.3.3.1 Pure Shear,Monotonic Loading,1963
+405.3.3.2 Pure Shear,Cyclic Loading,1964
+405.3.3.3 Uniaxial Strain,Monotonic Loading,1965
+405.3.3.4 Uniaxial Strain,Cyclic Loading,1966
+405.3.4.1 Pure Shear,Cyclic Loading,1967
+405.3.5.1 Pure Shear,Cyclic Loading,1968
+405.5 Cosserat,Micropolar Material Modeling,1978
+405.5.1 Cosserat,Micropolar Elastic Material Model (example in development),1979
+405.5.2 Cosserat,Micropolar Elastic-Plastic von Mises Material Model (example in development),1980
+405.5.3 Cosserat,Micropolar Elastic-Plastic Drucker Prager Material Model (example in development),1981
+406.3.4 Statics,Shear Beam Element,1993
+406.3.5.1 ANDES Shell,out of Plane Force,1995
+406.3.5.3 ANDES Shell,In-plane Force,1995
+406.3.6.2 ANDES Shell,In-plane Body Force,1997
+406.4 Statics,Interface/Contact Elements,1999
+406.4.1 Statics,Two Bar Normal Interface/Contact Problem Under Monotonic Loading,1999
+406.4.2 Statics,Four Bar Interface/Contact Problem With Normal and Shear Force Under Monotonic Loading,2000
+406.4.3 Statics,3-D Truss example with normal confinement and Shear Loading,2002
+406.4.4 Statics,Six Solid Blocks Example With Interface/Contact,2004
+406.7 Statics,Elastic Single Solid Finite Finite Element Examples,2008
+406.7.1.2 Pure Shear,Cyclic Loading,2009
+406.7.1.3 Uniaxial Strain,Monotonic Loading,2009
+406.7.1.4 Uniaxial Strain,Cyclic Loading,2010
+406.7.2.1 Pure Shear,Monotonic Loading,2010
+406.7.2.2 Pure Shear,Cyclic Loading,2011
+406.8 Statics,Elastic-Plastic Single Solid Finite Element Examples,2013
+406.8.2 Statics,Drucker Prager with Armstrong Frederick Nonlinear Kinematic Hardening Material Model,2018
+406.9.1.1 Linear Elastic Normal Loading,Fiber Cross Section Beam Finite Element Examples,2020
+406.9.1.2 Linear Elastic Pure Bending,Fiber Cross Section Beam Finite Element Examples,2021
+406.10.1.1 Elastic-Plastic Normal Loading,(Fiber Cross Section) Beam Finite Element Examples,2022
+406.10.1.2 Elastic-Plastic Pure Bending,(Fiber Cross Section) Beam Finite Element Examples,2023
+406.12 Statics,Elastic-Plastic Wall Finite Element Examples,2027
+406.13 Statics,Solution Advancement Control,2030
+406.13.1.1 Solids Example,Elastic Plastic Isotropic Hardening,2030
+406.13.1.2 Solids Example,Elastic Plastic Kinematic Hardening,2031
+406.13.1.3 Inelastic Beam Example,Steel and Reinforced Concrete,2032
+406.13.2 Statics,Increments: Displacement Control,2032
+406.13.2.1 Statics,Single Displacement Control,2032
+406.13.2.2 Solids Example,Elastic-Perfectly Plastic,2032
+406.13.2.3 Solids Example,Elastic Plastic Isotropic Hardening,2033
+406.13.2.4 Solids Example,Elastic Plastic Kinematic Hardening,2033
+406.13.2.5 Inelastic Beam Example,Steel and Reinforced Concrete,2035
+406.13.3 Statics,Solution Algorithms,2037
+406.13.3.1 Statics,Solution Algorithm: No Convergence Check,2037
+406.13.3.2 Statics,Solution Algorithm: Newton Algorithm,2038
+406.13.3.3 Statics,Solution Algorithm: Newton Algorithm with Line Search,2039
+406.14 Statics,Small Practical Examples,2043
+406.14.1 Statics,Elastic Beam Element for a Simple Frame Structure,2043
+406.14.3 Statics,Six Solid Blocks Example With Interface/Contact,2046
+407.4 Dynamics: Energy Dissipation,Damping,2052
+407.4.1.1 Dynamics: Energy Dissipation,Viscous Damping: Rayleigh Damping,2052
+407.4.1.2 Dynamics: Energy Dissipation,Viscous Damping: Caughey Damping,2053
+407.4.2 Dynamics: Energy Dissipation: Material (Elastic-Plastic,Hysteretic) Damping,2053
+407.4.2.1 Dynamics: Energy Dissipation,Material Damping: Elastic Perfectly Plastic Models,2053
+407.4.2.2 Dynamics: Energy Dissipation,Material/Hysteretic Damping: Elastic Plastic Isotropic Hardening Models,2055
+407.4.2.3 Dynamics: Energy Dissipation,Material/Hysteretic Damping: Elastic Plastic Kinematic Hardening Models,2055
+407.4.2.4 Dynamics: Energy Dissipation,Material/Hysteretic Damping: Elastic Plastic Armstrong-Frederick Models,2056
+407.4.3.1 Energy Dissipation,Numerical Damping: Newmark Method,2057
+407.4.3.2 Dynamics: Energy Dissipation,Numerical Damping: Hilber-Hughes-Taylor (α) Method,2058
+409 Large Scale,Realistic Examples,2100
+410.3.1 Deconvolution and Propagation of 1C Motions,1D Model,2148
+410.3.2 Convolution and Propagation of 1C Motions,1D Model,2148
+410.4 Day 3: Inelastic,Nonlinear Analysis,2164
+410.4.9 Buildings,ATC-144/FEMA-P-2091 Examples,2187
+502 Earthquake Soil Structure Interaction,General Aspects,2259
+502.2.4.1 Three Component,3C Motion Development,2270
+502.2.4.2 One Component,1C Motion Development,2270
+502.2.6.2 Select Seismic Motions,Displacement Array Traces,2286
+502.2.6.4 Point Fault Slip Motions,Arrays and Particle Motions,2331
+502.4 Step by Step,Hierarchical Inelastic ESSI Analysis,2354
+503 Earthquake-Soil-Structure Interaction,Bridge Structures,2359
+504 Earthquake-Soil-Structure Interaction,Nuclear Power Plants,2452
+504.1.2.1 Ricker wave,with fault located at 45° towards the top middle point of the model,2470
+504.1.2.2 Ricker wave,with fault located at 34° towards the top middle point of the model,2477
+504.2.2 NPP Response,Model #01,2484
+504.3.1 Model #01,Single NPP,2486
+504.3.2 Model #02,Single NPP,2491
+504.3.4 Model #04,Small Modular Reactor (SMR),2503
+504.8 Inclined Waves,Free Field and SMR Modeling,2543
+505.4 Pile in Liquefied Ground,Staged Simulation Model Development,2614
+505.4.4 Free Field,Lateral and Longitudinal Models,2620
+510.3.2.1 Seismic Energy Dissipation,Wave Reflection and Wave Radiation,2697
+510.3.2.2 Seismic Energy Dissipation,Viscous Coupling,2697
+510.3.2.3 Seismic Energy Dissipation,Material Inelasticity,2697
+510.5 Modeling: Inelastic,Nonlinear Material Modeling for Solids and Structures,2700
+510.5.2.3 Partially Saturated,Unsaturated Soil,2700
+510.10 Modeling: Solid,Structure–Fluid Interaction Modeling,2705
+510.12.1 Buildings and NPPs on Shallow Foundations,Models,2707
+510.12.2 Buildings and NPPs on Deeply Embedded Foundation (SMRs),Models,2707
+510.12.3 Buildings and NPPs on Piles and Pile Group Foundations,Models,2707
+510.12.4 Structure–Soil–Structure Interaction,Models,2707
+511 ASCE-4,Chapter on Nonlinear ESSI Analysis,2711
+511.3.2.1 Seismic Energy Dissipation,Wave Reflection and Wave Radiation,2718
+511.3.2.2 Seismic Energy Dissipation,Viscous Coupling,2718
+511.3.2.3 Seismic Energy Dissipation,Material Inelasticity,2718
+511.5 Modeling: Inelastic,Nonlinear Material Modeling for Solids and Structures,2725
+511.5.2.3 Partially Saturated,Unsaturated Soil,2727
+511.11 Modeling: Solid,Structure–Fluid Interaction Modeling,2742
+511.13.1 Buildings and NPPs on Shallow Foundations,Models,2747
+511.13.2 Buildings and NPPs on Deeply Embedded Foundation (SMRs),Models,2747
+511.13.3 Buildings and NPPs on Piles and Pile Group Foundations,Models,2748
+511.13.4 Structure–Soil–Structure Interaction,Models,2749
+512 Earthquake-Soil-Structure Interaction,Core Functionality,2766
+512.5.4 Dynamic Acceleration Field,Earthquake,2769
+512.9 Core Material Modeling Parameters for Contacts,Interfaces and Joints,2773
+512.9.2 Steel Sheet Against Sand,Gravel and Rockfill,2775
+512.9.3 Formed Concrete Against Sand,Gravel and Rockfill,2776
+702.4.1 Stress,Strain and Elastoplastic State Classes,2875
+704 Hyperelasticity,Detailed Derivations,2893
+707.3 Cantilever,5 Elastic Beam Elements,2985
+707.7 Elastic Beam,27 Node Brick Model With Concentrated Mass,3004
+707.10 27 Node Brick Cantilever Beam,Static Load,3020
+707.11 4 Node ANDES Cantilever Beam,Force Perpendicular to Plane,3023
+707.12 4 Node ANDES Cantilever Beams,In-Plane Force,3025
+707.13 27 Node Brick Cantilever Beams,Dynamic Input,3027
+707.14 4 Node ANDES Square Plate,Four Edges Clamped,3031
+707.17 Shear Beam Element,Pisano Material,3042
